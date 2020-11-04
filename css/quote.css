@@ -1,0 +1,28 @@
+.third {
+    height: 85vh;
+    width: 100%;
+    background-color: rosybrown;
+    color: white;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 3em;
+}
+.third-phrase {
+/*     text-align: center ;
+ */    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+.quote {
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+        line-height: 1.5;
+        width: 60%;
+} 
+.author-phrase {
+    font-size: 2em;
+}

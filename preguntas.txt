@@ -1,0 +1,6 @@
+Preguntas
+
+1- como poner el hover cuando hago click en el navegador.
+2-debo siempre poner altura y ancho a la caja? 
+o cuando deberia hacerlo? 
+3-

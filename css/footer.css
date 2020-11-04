@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    background-color: rosybrown;
+    width: 100%;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer-final {
+    width: 55%;
+
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.final-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+    /* border: 1px solid black; */
+}
+.final-menu-item{
+    margin: 1%;
+}
+
+.final-menu-iconos {
+    display: flex;
+    width: 35%;
+    height: 20%;
+    justify-content: center;
+    list-style: none;
+    /*background-color: slateblue;
+     flex-direction: column; */
+}
+.final-iconos {
+    width: 3.5em;
+    height: 3.5em;
+    padding: 1%;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-color: #fff;
+    color: rosybrown;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final-iconos:hover {
+    background-color: rosybrown;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+.fa-twitter, .fa-github-alt, .fa-linkedin-in, .fa-envelope {
+    font-size: 1.5rem;
+    margin: 4%;
+    color: #551A8B;
+}
+.buttom-final {
+    text-decoration: none;
+    color: #fff;
+}

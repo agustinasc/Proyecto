@@ -1,0 +1,130 @@
+main {
+    font-family: 'Quicksand', sans-serif;
+}
+.first {
+    height: 40em;
+    /* background-color: blueviolet; */
+    margin: 1.5em 1em;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.first-present{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    /* align-items: flex-start ; */
+}
+.present-hi, .knowledge-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.present-my-name {
+    color:#bc8f8f;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.first-imagen {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 2.5em;
+ /*    height: 100%;
+    width: 100%; */
+}
+.present-what-i-do {
+    width: 160px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rosybrown;
+    cursor: pointer;
+
+}
+.present-what-i-do:hover {
+    background-color: rgb(231, 176, 176);
+}
+
+
+
+
+
+/* Comienzo Segunda Sección  */
+
+.second{
+    background-color:#e7e4e4;
+    color: #1b1818;
+    margin: 2% 1%;
+    padding: 8%;
+}
+.second-knowledge {
+    width: 100%;
+/*     height: 500px;
+ */    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.knowledge-text {
+    padding: 2% 5%;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.4;
+}
+.knowledge-skills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+i {
+    font-size: 5em;
+}
+.skills {
+    width: 300px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3%;
+    margin: 2%;
+    text-align: center;
+}
+.skills, .descrip {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    /* margin: 10% 0% 5% 0%; */
+}
+.skills:hover {
+    border: 2px solid rgb(202, 115, 198);
+    color: rosybrown;
+}
+/* .skills-descrip:hover {
+    color: rosybrown;
+}  */
+
+.fa-html5 {
+    color: #e54d26;
+}
+.fa-css3-alt {
+    color: #3d8fc6;;
+}
+.fa-sass {
+    color: #c69;
+}
+.fa-js {
+    color: #f0db4f;
+}
+.fa-react {
+    color: #61dafb;
+}
+.fa-git-alt {
+    color: #f34f29;
+}
