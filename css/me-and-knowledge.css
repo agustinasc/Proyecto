@@ -1,21 +1,29 @@
 main {
     font-family: 'Quicksand', sans-serif;
 }
-.first {
-    height: 40em;
+.about-me {
+    height: 46em;
+    width: 100%;
     /* background-color: blueviolet; */
-    margin: 1.5em 1em;
-    padding: 10px;
+    margin: 1em;
+    padding: 2em;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-content: flex-end;
     
 }
-.first-present{
-    /* border: 1px solid black; */
+.about-me-present{
     display: flex;
-    flex-direction: column  ;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     /* align-items: flex-start ; */
+
+}
+.about-me-imagen {
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: flex-end;
+
 }
 .present-hi, .knowledge-title {
     font-weight: bold;
@@ -28,13 +36,13 @@ main {
     font-weight: bolder;
     margin-bottom: 20px;
 }
-.first-imagen {
-    max-width: 500px;
-    max-height: 500px;
+.img-me {
+    display: flex;
+    max-width: 27em;
+    max-height: 27em;
     margin: 2.5em;
- /*    height: 100%;
-    width: 100%; */
 }
+   
 .present-what-i-do {
     width: 160px;
     padding: 10px;
@@ -53,6 +61,52 @@ main {
 }
 
 
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+    .about-me {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: flex-end;
+        margin: 1%;
+        padding: 1%;
+       
+    }
+    .about-me-present {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        /* max-width: 27em;
+        max-height: 27em; */
+} 
+    .about-me-imagen {
+        display: flex;
+        /* margin: 2%; */
+    }
+    .img-me {
+        max-width: 25em;
+        max-height: 25em;
+    }
+}
+@media (max-width: 500px) {
+    .about-me {
+        align-content: space-evenly;
+    }
+    .present-hi, .present-my-name {
+        font-size: 2em;
+    }
+    .presentation-text {
+        font-size: 0.7em;
+    }
+    .present-what-i-do {
+        font-size: 1em;
+    }
+
+    .img-me {
+        max-width: 18em;
+        max-height: 18em;
+    }
+}
 
 
 
@@ -128,3 +182,19 @@ i {
 .fa-git-alt {
     color: #f34f29;
 }
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 500px) {
+    .second-knowledge {
+        text-align: center;
+    }
+}
+
+
+
+
+

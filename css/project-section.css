@@ -24,8 +24,8 @@
     /* border: 1px solid black; */
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    /* justify-content: center; */
     padding: 0.5em;
     text-align: center;
     margin: 1em;
@@ -40,6 +40,7 @@
 
 
 /* Imagenes de los proyectos */
+
 .projects {
     width: 22vw;
     height: 22vh;
@@ -49,8 +50,45 @@
 .link-projects {
     text-decoration: none;
     color: black;
+    display: flex;
 }
 .my-projects:hover {
     border: 2px solid rgb(202, 115, 198);
     color: rosybrown;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+    .my-projects-grilla {
+    justify-content: center;
+    }
+    .projects {
+        max-width: 14em;
+        max-height: 14em;
+    }
+}
+
+@media (max-width: 500px) {
+    .my-projects-title {
+        text-align: center;
+    }
+    .link-projects {
+       /*  max-width: 20em;
+        height: 20em;
+        margin-bottom: 1em; */
+        display: flex;
+        flex-direction: column;
+    }
+    .my-projects {
+    width: 20em;
+    height: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    } 
+    figcaption {
+        width: 5em;
+    } 
+}
+

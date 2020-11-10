@@ -77,3 +77,11 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+    .email-footer {
+        justify-content: center;
+    }
+}
