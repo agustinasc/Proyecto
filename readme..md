@@ -6,8 +6,8 @@
 
 ### Si te gustaria conocer mi trabajo, puedes dar click en alguno de los siguientes link:
 
-- [Github](agustinasc.github.io/proyecto/.)
-- [Netlify]()
+- [Github](https://agustinasc.github.io/Proyecto/)
+- [Netlify](https://upbeat-fermat-8faa3b.netlify.app/.)
 
 <br>
 
