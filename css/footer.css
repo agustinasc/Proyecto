@@ -81,7 +81,17 @@ footer {
 /* MEDIA QUERIES */
 
 @media (max-width: 900px) {
-    .email-footer {
+    .i-footer {
         justify-content: center;
+        width: 2.5em;
+        /* height: 2em; */
     }
+}
+
+@media (max-width: 600px) {
+.final-menu-item {
+    margin: 3%;
+    font-size: 0.8em;
+    }
+
 }

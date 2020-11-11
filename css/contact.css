@@ -145,17 +145,19 @@ input:focus, textarea:focus {
 
 @media (max-width: 600px) {
     .section-contact {
-        width: 20em;
+        width: 23em;
+        height: 60em;
+        justify-content: flex-start;
     }
     .contact-first {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: end;
+        height: 100%;
     
     }
     .contact-me {
-        width: 5em;
-        height: 50%;
+        width: 18em;
     }
     .contact-title, .write-me-title {
         font-size: 2em;
@@ -166,9 +168,14 @@ input:focus, textarea:focus {
         margin: 1.5em auto;
     }
     .write-me {
-        background-color: lightcoral;
+        /* background-color: lightcoral; */
         width: 100%;
         height: 50%;
     }
-
+    .form-user {
+        flex-direction: column;
+    }
+    .button-send {
+        margin-left: 5em;
+    }
 }
