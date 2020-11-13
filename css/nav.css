@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --rosa: #bc8f8f;
+    --rosaClaro:  rgb(231, 176, 176);
+    --morado: #551A8B;
+    --gris: rgb(190, 190, 190);
+    --grisClaro: #e7e4e4;
+    --moradoClaro:  rgb(202, 115, 198);
+    
+}
+
+
 header {
     background-color: #bc8f8f;
     display: flex;

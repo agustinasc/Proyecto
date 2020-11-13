@@ -1,7 +1,7 @@
 .third {
     height: 85vh;
     width: 100%;
-    background-color: rosybrown;
+    background-color: var(--rosa);
     color: white;
     display: flex;
     /* justify-content: center;

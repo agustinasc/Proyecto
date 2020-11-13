@@ -53,8 +53,8 @@
     display: flex;
 }
 .my-projects:hover {
-    border: 2px solid rgb(202, 115, 198);
-    color: rosybrown;
+    border: 2px solid var(--moradoClaro);
+    color: var(--rosa);
 }
 
 /* MEDIA QUERIES */

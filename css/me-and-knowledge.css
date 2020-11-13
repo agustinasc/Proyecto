@@ -31,7 +31,7 @@ main {
     margin-bottom: 20px;
 }
 .present-my-name {
-    color:#bc8f8f;
+    color: var(--rosa);
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 20px;
@@ -52,12 +52,12 @@ main {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    background-color: rosybrown;
+    background-color: var(--rosa);
     cursor: pointer;
 
 }
 .present-what-i-do:hover {
-    background-color: rgb(231, 176, 176);
+    background-color: var(--rosaClaro);
 }
 
 
@@ -110,10 +110,12 @@ main {
 
 
 
-/* Comienzo Segunda Sección  */
+/*
+ Comienzo Segunda Sección  
+*/
 
 .second{
-    background-color:#e7e4e4;
+    background-color: var(--grisClaro);
     color: #1b1818;
     margin: 2% 1%;
     padding: 8%;
@@ -157,8 +159,8 @@ i {
     /* margin: 10% 0% 5% 0%; */
 }
 .skills:hover {
-    border: 2px solid rgb(202, 115, 198);
-    color: rosybrown;
+    border: 2px solid var(--moradoClaro);
+    color: var(--rosa);
 }
 /* .skills-descrip:hover {
     color: rosybrown;

@@ -10,7 +10,7 @@ footer {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Prompt', sans-serif;
-    background-color: rosybrown;
+    background-color: var(--rosa);
     width: 100%;
     height: 15em;
     display: flex;
@@ -56,14 +56,14 @@ footer {
     /* border: 1px solid black; */
     border-radius: 50px;
     background-color: #fff;
-    color: rosybrown;
+    color: var(--rosa);
     margin: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .final-iconos:hover {
-    background-color: rosybrown;
+    background-color: var(--rosa);
     color: white;
     border: 1px solid;
     cursor: pointer;
@@ -71,20 +71,21 @@ footer {
 .fa-twitter, .fa-github-alt, .fa-linkedin-in, .fa-envelope {
     font-size: 1.5rem;
     margin: 4%;
-    color: #551A8B;
+    color: var(--morado);
 }
 .buttom-final {
     text-decoration: none;
     color: #fff;
 }
 
+
 /* MEDIA QUERIES */
+
 
 @media (max-width: 900px) {
     .i-footer {
         justify-content: center;
         width: 2.5em;
-        /* height: 2em; */
     }
 }
 
