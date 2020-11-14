@@ -1,5 +1,5 @@
 .third {
-    height: 85vh;
+    min-height: 85vh;
     width: 100%;
     background-color: var(--rosa);
     color: white;
@@ -33,7 +33,7 @@
 
 @media (max-width: 500px) {
     .quote {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 }
 
