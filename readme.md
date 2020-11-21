@@ -39,4 +39,5 @@
 
 <br>
 
+### Gracias a Jonh y a Leydy por su paciencia y predisposición!! ❤
 #### De Agus con 💜
