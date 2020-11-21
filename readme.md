@@ -1,6 +1,6 @@
 # Portfolio de Agustina
 
-### Este proyecto fue realizado para cumplir con la entrega del modulo-01 de Ada en el curso de Frontend. Utilizando las tecnologias de **HTML** y dando los estilos con **CSS*
+### Este proyecto fue realizado para cumplir con la entrega del modulo-01 de Ada en el curso de Frontend. Utilizando las tecnologias de **HTML** y dando los estilos con **CSS**
 
 ***
 
@@ -39,5 +39,5 @@
 
 <br>
 
-### Gracias a Jonh y a Leydy por su paciencia y predisposición!! ❤
+### Muchas gracias a JONH y a LEYDY por su paciencia y predisposición!! ❤
 #### De Agus con 💜
